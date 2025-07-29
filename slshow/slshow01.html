@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            the Web App
+        </title>
+        <link href="css/index.css" rel="stylesheet">
+        
+        
+		
+    </head>
+    <body>
+     
+        <h1>
+            Learning to develop a Web App!
+        </h1>
+        <img src="images/clouds.jpg"/>
+        <nav>
+            <ul>
+                The Repositories list
+                <li><a href="https://fhkyn.github.io/cli/sites/">cli</a></li>
+                <li><a href="https://fhkyn.github.io/hello-world/">exper</a></li>
+                <li><a href="https://fhkyn.github.io/wd01">wd repo</a></li>
+				<li><a href="slshow/tab01.html">Tabbed Gallery</a></li>
+				<li><a href="slshow/slshow01.html">Slideshow Gallery</a></li>
+                                              
+            </ul>
+        </nav>    
+        
+        <hr>
+		<section>
+		<div style="text-align:center">
+		  <h2>Tabbed Image Gallery</h2>
+		  <p>Click on the images below:</p>
+		</div>
+		<!-- The grid: four columns -->
+		<div class="row">
+		  <div class="column">
+			<img src="images/koh01.jfif" alt="Kingdom" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/dol01.jfif" alt="Lion's Den" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/dragon01.jpg" alt="Dragon" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/qoh01.jpeg" alt="Queen" onclick="myFunction(this);">
+		  </div>
+		</div>
+		</section>
+		<!-- The expanding image container -->
+		<div class="container">
+		  <!-- Close the image -->
+		  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+		  <!-- Expanded image -->
+		  <img id="expandedImg" style="width:100%">
+
+		  <!-- Image text -->
+		  <div id="imgtext"></div>
+		</div>
+		<script>
+			function myFunction(imgs) {
+			  var expandImg = document.getElementById("expandedImg");
+			  var imgText = document.getElementById("imgtext");
+			  expandImg.src = imgs.src;
+			  imgText.innerHTML = imgs.alt;
+			  expandImg.parentElement.style.display = "block";
+			}
+		</script>	
+		<div>
+		
+		</div>
+        <div>
+        <p>
+           <strong>Looks like this is the start of a whole new ballgame!!</strong>
+           Click <a href="https://fhkyn.github.io/glu/">here</a> to see another repo!
+        </p>
+        </div>
+        <div>
+        <p>
+            First lets <i>learn</i> how to use <strong>Git</strong>.
+        </p>
+        </div>
+    </body>
+</html>
