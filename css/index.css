@@ -1,12 +1,15 @@
 body {
     padding: 30px;
-    margin: 20px;
+    margin: 0px;
     border:black;
     font-family: serif;
     background-color: beige;
 }
 h1, h2, h3, h4, h5, h6 { font-family: sans-serif; 
     text-align: center;}
+	* {
+  box-sizing: border-box;
+}
 
     ul {
         list-style-type: none;
