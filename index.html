@@ -40,16 +40,16 @@
 		<!-- The grid: four columns -->
 		<div class="row">
 		  <div class="column">
-			<img src="/images/koh01.jfif" alt="Kingdom" onclick="myFunction(this);">
+			<img src="images/koh01.jfif" alt="Kingdom" onclick="myFunction(this);">
 		  </div>
 		  <div class="column">
-			<img src="/images/dol01.jfif" alt="Lion's Den" onclick="myFunction(this);">
+			<img src="images/dol01.jfif" alt="Lion's Den" onclick="myFunction(this);">
 		  </div>
 		  <div class="column">
-			<img src="/images/dragon01.jpg" alt="Dragon" onclick="myFunction(this);">
+			<img src="images/dragon01.jpg" alt="Dragon" onclick="myFunction(this);">
 		  </div>
 		  <div class="column">
-			<img src="/images/qoh01.jpeg" alt="Queen" onclick="myFunction(this);">
+			<img src="images/qoh01.jpeg" alt="Queen" onclick="myFunction(this);">
 		  </div>
 		</div>
 
@@ -64,6 +64,15 @@
 		  <!-- Image text -->
 		  <div id="imgtext"></div>
 		</div>
+		<script>
+			function myFunction(imgs) {
+			  var expandImg = document.getElementById("expandedImg");
+			  var imgText = document.getElementById("imgtext");
+			  expandImg.src = imgs.src;
+			  imgText.innerHTML = imgs.alt;
+			  expandImg.parentElement.style.display = "block";
+			}
+		</script>	
 		<div>
 		
 		</div>
