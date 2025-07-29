@@ -36,6 +36,36 @@
         </nav>    
         
         <hr>
+		<!-- The grid: four columns -->
+		<div class="row">
+		  <div class="column">
+			<img src="/images/koh01.jfif" alt="Kingdom" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="/images/dol01.jfif" alt="Lion's Den" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="/images/dragon01.jpg" alt="Dragon" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="/images/qoh01.jpg" alt="Queen" onclick="myFunction(this);">
+		  </div>
+		</div>
+
+		<!-- The expanding image container -->
+		<div class="container">
+		  <!-- Close the image -->
+		  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+		  <!-- Expanded image -->
+		  <img id="expandedImg" style="width:100%">
+
+		  <!-- Image text -->
+		  <div id="imgtext"></div>
+		</div>
+		<div>
+		
+		</div>
         <div>
         <p>
            <strong>Looks like this is the start of a whole new ballgame!!</strong>
