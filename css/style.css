@@ -132,7 +132,11 @@ p {
     body{background-color: lightcyan;}
     img {
         border: 15px solid black;
+<<<<<<< HEAD
         border-radius:200;
+=======
+        border-radius:400;
+>>>>>>> f8611587a8d4a14ef1b07e3196fdd637dc34aa5f
         width: 100%;
         margin: 5px;
         padding: 2px;
