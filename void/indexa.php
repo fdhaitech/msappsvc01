@@ -3,6 +3,17 @@
     <title>
       Verse of the day
     </title>
+	<script>
+	if(iPhone)
+	{
+		  document.write("<meta name="viewport" content=\"width=480\""+"/>");
+	}
+	else // iPad
+	{
+		 document.write("<meta name="viewport" content=\"width=1024\""+"/>");
+	}
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/clouds.css">
     <link rel="stylesheet" href="/css/indexa.css">
     <link rel="stylesheet" href="/css/sun.css">
