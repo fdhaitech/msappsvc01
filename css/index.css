@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6 { font-family: sans-serif;
     padding: 3px;
     border: 4px black groove;
     float: inline-end;
+	display: block;
 }
 /* The grid: Four equal columns that floats next to each other */
 .column {
