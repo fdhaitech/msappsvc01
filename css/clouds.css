@@ -182,7 +182,7 @@ body {
     background: #fff;
     content: '';
     position: absolute;
-    z-indeX: -1;
+    z-indeX: -3;
 }
 
 .cloud:after {
