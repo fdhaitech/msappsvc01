@@ -1,6 +1,6 @@
 <html>
 <head>
- <script>
+ /* <script>
 if(iPhone)
 {
       document.write("<meta name="viewport" content=\"width=480\""+"/>");
@@ -9,7 +9,7 @@ else // iPad
 {
      document.write("<meta name="viewport" content=\"width=1024\""+"/>");
 }
-</script>
+*/</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Verse Of The Day</title>
 <link rel="stylesheet" href="/css/style.css">
@@ -33,7 +33,7 @@ else // iPad
 			<br />
 
 
-		/div>
+		
 
 			<hr />
 		</div>
