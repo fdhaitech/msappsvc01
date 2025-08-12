@@ -22,6 +22,10 @@ else // iPad
 		<div class="myheader">
 			<h1 id="myHeader">Verse of the day</h1>
 			<br />
+				<h3>
+					“He said to them, “Go into all the world and preach the gospel to all creation. Whoever believes and is baptized will be saved, but whoever does not believe will be condemned.”
+					‭‭Mark‬ ‭16‬:‭15‬-‭16‬ ‭NIV‬‬
+				</h3>
 			<nav>
 			  <ul class="flex">
 				<li><a href="/index.html"><strong>Home</strong></a></li>	
@@ -90,10 +94,7 @@ else // iPad
 <h1>A Verse for today </h1>
 </div>
 <div class="item3">
-<h3>
-    “He said to them, “Go into all the world and preach the gospel to all creation. Whoever believes and is baptized will be saved, but whoever does not believe will be condemned.”
-    ‭‭Mark‬ ‭16‬:‭15‬-‭16‬ ‭NIV‬‬
-</h3>
+
    
 <div>
 <img src="/images/craiyon_00.png">
