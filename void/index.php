@@ -31,7 +31,7 @@ else // iPad
 				<li><a href="/index.html"><strong>Home</strong></a></li>	
 				<li><a href="indexa.php"><strong>Verses</strong></a></li>
 				<li><a href="veroday.html"><strong>Verse of the day</strong></a></li>
-				<li><a href="gp/"><strong>VOD</strong></a></li>
+				<li><a href="gp/">VOD</a></li>
 			  </ul>    
 			</nav>
 			<br />
@@ -82,59 +82,49 @@ else // iPad
 	</div>
 	</div>
 
-</div>
-
-<div>
-<div class="wrapper">
+	<div class="wrapper">
  
-<div class="item2">
-<div class="center">
- 
-    <img src="/images/craiyon_00.png">
-<h1>A Verse for today </h1>
-</div>
-<div class="item3">
+		<div class="item2">
 
-   
-<div>
-<img src="/images/craiyon_00.png">
-<h1>A Verse for today </h1>
-    <p>
-        <?php
-            $filename2= "file.txt";
-            $fileContent2 = file_get_contents ($filename2);
-            print $fileContent2;
-        ?>
-    </p>
+					   
+			<div>
+			<img src="/images/craiyon_00.png">
+			<h1>A Verse for today </h1>
+				<p>
+					<?php
+						$filename2= "file.txt";
+						$fileContent2 = file_get_contents ($filename2);
+						print $fileContent2;
+					?>
+				</p>
 
 
-<br />
-<hr />
-        <form method="POST">
-            <label for="paste1">Paste your verse here:</label>
-            <br>
-            <textarea id="paste1" name="paste1" type="text" cols="40" rows="8" placeholder="Enter Verse"></textarea>
-            <br>
-            <input id="submit" type="submit" value="submit">
-        </form>
-</div>
-</div>
-<hr />
-		<div class="item4">
-			<div class="item1">
-
-			<p >"If I speak in the tongues of men or of angels, but do not have love, I am only a resounding gong or a clanging cymbal. If I have the gift of prophecy and can fathom all mysteries and all knowledge, and if I have a faith that can move mountains, but do not have love, I am nothing. Love is patient, love is kind. It does not envy, it does not boast, it is not proud. For now we see only a reflection as in a mirror; then we shall see face to face. Now I know in part; then I shall know fully, even as I am fully known. And now these three remain: faith, hope and love. But the greatest of these is love."
-			1 Corinthians 13:1-2, 4, 12-13 NIV</p>
+			<br />
+			<hr />
+					<form method="POST">
+						<label for="paste1">Paste your verse here:</label>
+						<br>
+						<textarea id="paste1" name="paste1" type="text" cols="40" rows="8" placeholder="Enter Verse"></textarea>
+						<br>
+						<input id="submit" type="submit" value="submit">
+					</form>
 			</div>
-
-		<br />
-		   
-		
-
 		</div>
-</div>
+		<hr />
+				<div class="item4">
+					<div class="item1">
 
-</div>
+					<p >"If I speak in the tongues of men or of angels, but do not have love, I am only a resounding gong or a clanging cymbal. If I have the gift of prophecy and can fathom all mysteries and all knowledge, and if I have a faith that can move mountains, but do not have love, I am nothing. Love is patient, love is kind. It does not envy, it does not boast, it is not proud. For now we see only a reflection as in a mirror; then we shall see face to face. Now I know in part; then I shall know fully, even as I am fully known. And now these three remain: faith, hope and love. But the greatest of these is love."
+					1 Corinthians 13:1-2, 4, 12-13 NIV</p>
+					</div>
+
+				<br />
+				   
+				
+
+				</div>
+	</div>
+
 	<footer>
 			<p>
 			<a href="first/index.html"><strong>project 1</strong></a>
