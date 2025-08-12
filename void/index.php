@@ -1,15 +1,6 @@
 <html>
 <head>
- /* <script>
-if(iPhone)
-{
-      document.write("<meta name="viewport" content=\"width=480\""+"/>");
-}
-else // iPad
-{
-     document.write("<meta name="viewport" content=\"width=1024\""+"/>");
-}
-*/</script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Verse Of The Day</title>
 <link rel="stylesheet" href="/css/style.css">
@@ -34,12 +25,8 @@ else // iPad
 				<li><a href="gp/">VOD</a></li>
 			  </ul>    
 			</nav>
-			<br />
-
-
-		
-
-			<hr />
+	<br />
+	<hr />
 		</div>
 		
 	<br />
