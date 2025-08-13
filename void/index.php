@@ -3,10 +3,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Verse Of The Day</title>
-<link rel="stylesheet" href="/css/style.css">
-<link rel="stylesheet" href="/css/indexa.css">
-<link rel="stylesheet" href="/css/clouds.css">
-<link rel="stylesheet" href="/css/sun.css">
+//<link rel="stylesheet" href="/css/style.css">
+//<link rel="stylesheet" href="/css/indexa.css">
+//<link rel="stylesheet" href="/css/clouds.css">
+//<link rel="stylesheet" href="/css/sun.css">
 </head>
 <body>
 	<div class="flex-container">
