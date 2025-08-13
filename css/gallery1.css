@@ -6,4 +6,15 @@ img {
 		display: grid;
 		grid-template-columns: 1fr 5fr;
 		grid-gap: 20px
+		overflow: hidden;
+		height: 100vh;
 	}
+.gallery {
+			overflow: scroll;
+	}
+	
+.ssnav {
+			overflow-y: scroll;
+			overflow-x: hidden;
+	}
+	
