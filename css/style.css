@@ -125,6 +125,31 @@ p {
        grid-column: auto / span 2;
        
    }
+ p {
+    width: 50px;
+    height: 50px;
+    opacity:0.3;
+    padding:.75em;
+    border: 3px solid black;
+    margin-bottom: 15px;
+    
+    z-index: 3;
+	text-align:center;
+    
+}
+
+.aiart {
+    width: 150px;
+    height: 150px;
+    opacity:0.3;
+    padding:.75em;
+    border: 3px solid black;
+    margin-bottom: 15px;
+    position: relative;
+    display:inline-block;
+    z-index: 7;
+    
+}
     
     
 }
