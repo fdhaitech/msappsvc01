@@ -11,6 +11,12 @@ img {
 	}
 .gallery {
 			overflow: scroll;
+			scroll-snap-type: x mandatory;
+			
+	}
+.gallery_img {
+				scroll-snap-align: start;
+				margin-bottom: 10px;
 	}
 	
 .ssnav {
