@@ -99,29 +99,7 @@
 					</form>
 			</div>
 		</div>
-		<hr />
-				<div class="item4">
-					<div class="item1">
-
-					<p >"If I speak in the tongues of men or of angels, but do not have love, I am only a resounding gong or a clanging cymbal. If I have the gift of prophecy and can fathom all mysteries and all knowledge, and if I have a faith that can move mountains, but do not have love, I am nothing. Love is patient, love is kind. It does not envy, it does not boast, it is not proud. For now we see only a reflection as in a mirror; then we shall see face to face. Now I know in part; then I shall know fully, even as I am fully known. And now these three remain: faith, hope and love. But the greatest of these is love."
-					1 Corinthians 13:1-2, 4, 12-13 NIV</p>
-					</div>
-
-				<br />
-				   
-				
-
-				</div>
-	</div>
-
-	<footer>
-			<p>
-			<a href="first/index.html"><strong>project 1</strong></a>
-			<a href="https://mactech6.free.nf/?i=1"><strong>pic</strong></a>
-			<a href="/phpgallery/index.php"><strong>Images</strong></a>
-			<a href="first/index.php"><strong>Home B</strong></a>
-			bottom of the page stuff
-			<?php
+		<?php
 
 			  
 				if( isset($_POST["paste1"]) ) {
@@ -144,6 +122,29 @@
 					
 				}
 				?>
+		<hr />
+				<div class="item4">
+					<div class="item1">
+
+					<p >"If I speak in the tongues of men or of angels, but do not have love, I am only a resounding gong or a clanging cymbal. If I have the gift of prophecy and can fathom all mysteries and all knowledge, and if I have a faith that can move mountains, but do not have love, I am nothing. Love is patient, love is kind. It does not envy, it does not boast, it is not proud. For now we see only a reflection as in a mirror; then we shall see face to face. Now I know in part; then I shall know fully, even as I am fully known. And now these three remain: faith, hope and love. But the greatest of these is love."
+					1 Corinthians 13:1-2, 4, 12-13 NIV</p>
+					</div>
+
+				<br />
+				   
+				
+
+				</div>
+	</div>
+
+	<footer>
+			<p>
+			<a href="first/index.html"><strong>project 1</strong></a>
+			<a href="https://mactech6.free.nf/?i=1"><strong>pic</strong></a>
+			<a href="/phpgallery/index.php"><strong>Images</strong></a>
+			<a href="first/index.php"><strong>Home B</strong></a>
+			bottom of the page stuff
+			
 			</p>
 			</footer>
 
