@@ -33,6 +33,10 @@ adiv {
 .myheader {
     color:blue;
 }
+hr {
+	display:block;
+	width:100%
+}
     
 nav {
     background-color: skyblue;
