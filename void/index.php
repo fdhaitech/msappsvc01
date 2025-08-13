@@ -6,8 +6,8 @@
 
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/css/indexa. css">
-<link rel="stylesheet" href="/css/clouds. css">
-<link rel="stylesheet" href="/css/sun. css">
+<link rel="stylesheet" href="/css/clouds.css">
+<link rel="stylesheet" href="/css/sun.css">
 
 </head>
 <body>
