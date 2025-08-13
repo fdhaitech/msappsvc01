@@ -3,16 +3,7 @@
     <title>
       Verse of the day
     </title>
-	<script>
-	if(iPhone)
-	{
-		  document.write("<meta name="viewport" content=\"width=480\""+"/>");
-	}
-	else // iPad
-	{
-		 document.write("<meta name="viewport" content=\"width=1024\""+"/>");
-	}
-	</script>
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/clouds.css">
     <link rel="stylesheet" href="/css/indexa.css">
@@ -80,6 +71,9 @@
 <div class="item3">
     <div>
         <p>
+
+</p>
+</div>
 <?php
   if ( ! isset($_GET['guess']) ) {
     echo("The Lord is not slow in keeping his promise, as some understand slowness. Instead he is patient with you, not wanting anyone to perish, but everyone to come to repentance. " . "\n");
@@ -95,8 +89,6 @@
     echo("You got it!");
    }
 ?>
-</p>
-</div>
 
 <div class="item4">
 </div>
