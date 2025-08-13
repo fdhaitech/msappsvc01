@@ -17,10 +17,20 @@ img {
 .gallery_img {
 				scroll-snap-align: start;
 				margin-bottom: 10px;
+				min-height:100vh;
+				object-fit: cover;
 	}
 	
 .ssnav {
 			overflow-y: scroll;
 			overflow-x: hidden;
+	}
+.ssnav a {
+			height: 200px;
+			display: flex;
+			margin-bottom: 10px;
+	}
+.ssnav_img {
+				object-fit: cover;
 	}
 	
