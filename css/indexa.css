@@ -104,9 +104,9 @@ p {
     padding:.75em;
     border: 3px solid black;
     margin-bottom: 15px;
-    position: relative;
-    display:inline-block;
+    
     z-index: 3;
+	text-align:center;
     
 }
 
