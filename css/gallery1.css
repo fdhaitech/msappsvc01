@@ -15,10 +15,17 @@ img {
 		}
 	}
 .gallery {
-			overflow: scroll;
+			overflow-x: scroll;
+			overflow-y: hidden;
 			scroll-snap-type: x mandatory;
 			scroll-behavior: smooth;
-			
+			display: flex;
+		@media screen and (min-width: $large) {
+			display: block;
+			overflow-y: scroll;
+			overflow-x: hidden;
+			scroll-snap-type: y mandatory;
+		}
 	}
 .gallery_img {
 				scroll-snap-align: start;
@@ -30,6 +37,16 @@ img {
 .ssnav {
 			overflow-y: scroll;
 			overflow-x: hidden;
+			display: flex;
+			grid-row-start: 2;
+			
+		@media screen and (min-width: $large) {
+			overflow-y: scroll;
+			overflow-x: hidden;
+			display: block;
+			grid-row-start: auto;
+			
+		}
 	}
 .ssnav a {
 			height: 200px;
