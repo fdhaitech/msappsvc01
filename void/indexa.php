@@ -6,7 +6,6 @@
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/clouds.css">
-    <link rel="stylesheet" href="/css/indexa.css">
     <link rel="stylesheet" href="/css/sun.css">
    
   </head>
