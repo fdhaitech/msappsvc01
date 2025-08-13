@@ -77,7 +77,7 @@
 
 					   
 			<div>
-			<img src="/images/koh01.jfif">
+			<img class="aiart" src="/images/koh01.jfif" alt="Kingdom of Heaven">
 			<h1>A Verse for today </h1>
 				<p>
 					<?php
