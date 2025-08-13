@@ -77,7 +77,7 @@
 
 					   
 			<div>
-			<img src="/images/craiyon_00.png">
+			<img src="/images/koh01.jfif">
 			<h1>A Verse for today </h1>
 				<p>
 					<?php
