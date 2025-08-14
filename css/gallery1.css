@@ -9,9 +9,7 @@ img {
 		overflow: hidden;
 		height: 100vh;
 		
-		@media screen and (min-width: $large) {
-			grid-template-columns: 1fr 5fr;
-			grid-template-rows: auto;
+		
 		}
 	}
 .gallery {
@@ -20,11 +18,7 @@ img {
 			scroll-snap-type: x mandatory;
 			scroll-behavior: smooth;
 			display: flex;
-		@media screen and (min-width: $large) {
-			display: block;
-			overflow-y: scroll;
-			overflow-x: hidden;
-			scroll-snap-type: y mandatory;
+		
 		}
 	}
 .gallery_img {
@@ -40,11 +34,7 @@ img {
 			display: flex;
 			grid-row-start: 2;
 			
-		@media screen and (min-width: $large) {
-			overflow-y: scroll;
-			overflow-x: hidden;
-			display: block;
-			grid-row-start: auto;
+		
 			
 		}
 	}
