@@ -35,7 +35,7 @@ img {
 			overflow-y: scroll;
 			overflow-x: hidden;
 			display: flex;
-			grid-row-start: 2;
+			
 		}
 	}
 .ssnav a {
@@ -51,7 +51,7 @@ img {
 	}
 .ssnav_img:hover {
 					transform: scale(1.05);
-					fileter: saturate(1);
+					filter: saturate(1);
 	}	
 $large: 1200px;
 
