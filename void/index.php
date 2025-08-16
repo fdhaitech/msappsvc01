@@ -24,6 +24,8 @@
 				<li><a href="indexa.php"><strong>Verses</strong></a></li>
 				<li><a href="veroday.html"><strong>Verse of the day</strong></a></li>
 				<li><a href="gp/">VOD</a></li>
+				<li><a href="slshow01.html">Slideshow Gallery</a></li>
+				<li><a href="slshow02.html">Slideshow Gallery</a></li>
 			  </ul>    
 			</nav>
 	<br />
