@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 { font-family: sans-serif;
         margin: 0;
         padding: 0;
         overflow: hidden;
-		background-image:images/ncres.png;
+		background-image:url(images/ncres.png);
 		
       }
       
