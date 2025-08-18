@@ -24,6 +24,34 @@
 .carousel_img {
 	display: block;
 }
+
+.controls {
+	position: absolute;
+	right: 0;
+	bottom: 1em;
+	left: 0;
+	text-align: center;
+}
+.controls_dot (
+	display: inline-block;
+	width: 0.85em;
+	height: 0.85em;
+	border-radius; 50%;
+	outline: none;
+	background-color: #fff;
+	opacity: 0.8;
+	cursor: pointer;
+	transition: opacity 0.2s;
+	&:not(:first-child) {
+		margin-left: 0.25em;
+	}
+	
+)
+
+&:hover,
+&:focus {
+	opacity: 1;
+}
 /*
 im g {
 		display:block;
