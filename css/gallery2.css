@@ -12,8 +12,8 @@
 .carousel_img {
 	display: block;
 }
-
-img {
+/*
+im g {
 		display:block;
 		max-width:100%;
 	}
@@ -69,3 +69,4 @@ img {
 					filter: saturate(1);
 	}	
 $large: 1200px;
+*/
