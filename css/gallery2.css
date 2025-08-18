@@ -1,3 +1,15 @@
+.cwrapper {
+	margin-right:auto;
+	margin-left: auto;
+	max-width: 60em;
+	min-height: 100vh;
+	box-shadow: 0 0 1em 1em rgba(0, 0, 0, 0.1);
+	padding-bottom; 6em;
+}
+
+.ccontainer {
+	position: relative;
+}
 .carousel {
 	display: flex;
 	scroll-snap-type: x mandatory;
