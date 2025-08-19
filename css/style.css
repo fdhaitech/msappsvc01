@@ -11,6 +11,9 @@ body {
       color: blue;
     opacity:1;
 }
+.myheader {
+	background-image:url("/images/koh01.jfif");
+}
 header {
     text-align: center;
     margin-bottom: 150px
