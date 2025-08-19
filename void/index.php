@@ -13,6 +13,7 @@
 	<div class="flex-container">
 		<div class="myheader">
 			<h1 id="myHeader">Verse of the day</h1>
+			<img class="aiart" src="/images/koh01.jfif" alt="Kingdom of Heaven">
 			<br />
 				<h3>
 					“He said to them, “Go into all the world and preach the gospel to all creation. Whoever believes and is baptized will be saved, but whoever does not believe will be condemned.”
