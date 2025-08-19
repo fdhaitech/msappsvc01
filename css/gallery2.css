@@ -31,6 +31,7 @@
 	bottom: 1em;
 	left: 0;
 	text-align: center;
+	padding:3em;
 }
 .controls_dot (
 	display: inline-block;
