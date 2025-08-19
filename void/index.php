@@ -15,7 +15,7 @@
 			<h1 id="myHeader">Verse of the day</h1>
 			<br />
 				<h3>
-					“He said to them, “Go into all the world and preach the gospel to all creation. Whoever believes and is baptized will be saved, but whoever does not believe will be condemned.”
+					He said to them, “Go into all the world and preach the gospel to all creation. Whoever believes and is baptized will be saved, but whoever does not believe will be condemned.”
 					‭‭Mark‬ ‭16‬:‭15‬-‭16‬ ‭NIV‬‬
 				</h3>
 			<nav>
