@@ -123,7 +123,7 @@
 				}
 				?>
 		<hr />
-			<div class="item4">
+			<div class="item4 main">
 					<div class="item1">
 
 					<p >"If I speak in the tongues of men or of angels, but do not have love, I am only a resounding gong or a clanging cymbal. If I have the gift of prophecy and can fathom all mysteries and all knowledge, and if I have a faith that can move mountains, but do not have love, I am nothing. Love is patient, love is kind. It does not envy, it does not boast, it is not proud. For now we see only a reflection as in a mirror; then we shall see face to face. Now I know in part; then I shall know fully, even as I am fully known. And now these three remain: faith, hope and love. But the greatest of these is love."
