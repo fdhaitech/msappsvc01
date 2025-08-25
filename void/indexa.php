@@ -10,6 +10,27 @@
    
   </head>
 <body>
+<div class="flex-container">
+		<div class="myheader">
+			<h1 id="myHeader">Verse of the day</h1>
+			<br />
+				<h3>
+					He said to them, “Go into all the world and preach the gospel to all creation. Whoever believes and is baptized will be saved, but whoever does not believe will be condemned.”
+					‭‭Mark‬ ‭16‬:‭15‬-‭16‬ ‭NIV‬‬
+				</h3>
+			<nav>
+			  <ul class="flex">
+				<li><a href="/index.html"><strong>Home</strong></a></li>	
+				<li><a href="indexa.php"><strong>Verses</strong></a></li>
+				<li><a href="veroday.html"><strong>Verse of the day</strong></a></li>
+				<li><a href="gp/">VOD</a></li>
+				<li><a href="/slshow01.html">Slideshow Gallery</a></li>
+				<li><a href="/slshow02.html">Slideshow Gallery</a></li>
+			  </ul>    
+			</nav>
+	<br />
+	<hr />
+		</div>
 <div id="background-wrap">
     <div class="x1">
         <div class="cloud"></div>
