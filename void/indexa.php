@@ -163,6 +163,57 @@
 <img src="images/craiyon_01.png">
     <p >and test your creativity</p>
   </div>
+  <div class="wrapper">
+ 
+		<div class="item2">
+
+					   
+			<div>
+						<h1>A Verse for today </h1>
+				<p>
+					<?php
+						$filename2= "file.txt";
+						$fileContent2 = file_get_contents ($filename2);
+						print $fileContent2;
+					?>
+				</p>
+
+
+			<br />
+			<hr />
+					<form method="POST">
+						<label for="paste1">Paste your verse here:</label>
+						<br>
+						<textarea id="paste1" name="paste1" type="text" cols="40" rows="8" placeholder="Enter Verse"></textarea>
+						<br>
+						<input id="submit" type="submit" value="submit">
+					</form>
+			</div>
+		</div>
+		<?php
+
+			  
+				if( isset($_POST["paste1"]) ) {
+					file_put_contents("file.txt", $_POST["paste1"]);
+							
+							
+					$filename = "lista_toroq.txt";
+					$fileContent = file_get_contents ($filename);
+							
+					$filename1 = "vers.txt";
+					$fileContent1 = file_get_contents ($filename1);
+					
+					
+					$separator = "\n"." *********************** ". "\n";
+					$new_content = $_POST["paste1"].$separator.$fileContent;
+					$new_content1 = $_POST["paste1"].$separator;
+
+					file_put_contents($filename, $new_content);
+					file_put_contents($filename1, $new_content1, FILE_APPEND | LOCK_EX);
+					
+				}
+				?>
+		<hr />
   
  
 </div>
