@@ -1,6 +1,8 @@
 
 .myheader {
-	background-image:url("/images/koh01.jfif");
+	background-image:url("/images/koh01.jfif") no-repeat center/cover;
+	opacity:0.5;
+	z-index: -6;
 }
 .myheader img {
 	opacity: 0.8;
@@ -40,7 +42,9 @@ li:nth-child(odd) {
     font-size: 2em;
     margin:auto;
     padding:50px;
-	background-image: url("/images/koh3.jfif");
+	background-image: url("/images/koh3.jfif") no-repeat center/cover;
+	opacity:0.5;
+	z-index: -6;
   
 }
 ul {
