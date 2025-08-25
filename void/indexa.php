@@ -165,7 +165,7 @@
   </div>
   <div class="wrapper">
  
-		<div class="item2">
+		<div class="item2 main">
 
 					   
 			<div>
