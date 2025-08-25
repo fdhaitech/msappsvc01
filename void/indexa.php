@@ -71,22 +71,14 @@
 <div class="wrapper">
     <div class="item1">
          <h1 id="myHeader">Verse of the day</h1>
-    <nav>
-        <a href="index.php"><strong>Home</strong></a>
-        <a href="indexa.php"><strong>Hello World</strong></a>
-        <a href="index1.html"><strong>Cli Sites</strong></a>
-        <a href="gp/"><strong>gp</strong></a>
-        <a href="forms/"><strong>Forms</strong></a>
-    </nav>
-    </div>
-<div class="item2">
-    <h2>A Verse for today </h2>
+		<h2>A Verse for today </h2>
         <form>
         <label for="guess">Enter a Number: </label>
         <input id="guess" name="guess">
         <input id="submit" name"submit" value="Verse" type="submit">
         </form>
         
+    </div>
 </div>
 
 <div class="item3">
