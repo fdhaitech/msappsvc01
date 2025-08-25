@@ -35,7 +35,7 @@ li:nth-child(odd) {
   color:cornsilk;
 }
 
-main {
+.main {
     background-color: lightsalmon;
     font-size: 2em;
     margin:auto;
