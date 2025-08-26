@@ -36,6 +36,14 @@ li:nth-child(odd) {
   background-color: brown;
   color:cornsilk;
 }
+.item2 {
+	font-size: 2em;
+    margin:auto;
+    padding:50px;
+	
+	opacity:0.8;
+	z-index: -6;
+}
 
 .main {
     
