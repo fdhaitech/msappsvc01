@@ -71,22 +71,14 @@
 <div class="wrapper">
     <div class="item1">
          <h1 id="myHeader">Verse of the day</h1>
-    <nav>
-        <a href="index.php"><strong>Home</strong></a>
-        <a href="indexa.php"><strong>Hello World</strong></a>
-        <a href="index1.html"><strong>Cli Sites</strong></a>
-        <a href="gp/"><strong>gp</strong></a>
-        <a href="forms/"><strong>Forms</strong></a>
-    </nav>
-    </div>
-<div class="item2">
-    <h2>A Verse for today </h2>
+		<h2>A Verse for today </h2>
         <form>
         <label for="guess">Enter a Number: </label>
         <input id="guess" name="guess">
         <input id="submit" name"submit" value="Verse" type="submit">
         </form>
         
+    </div>
 </div>
 
 <div class="item3">
@@ -125,7 +117,7 @@
   <div id="p1" class="container">
     <p>If I speak in the tongues of men or of angels, but do not have love, I am only a resounding gong or a clanging cymbal. If I have the gift of prophecy and can fathom all mysteries and all knowledge, and if I have a faith that can move mountains, but do not have love, I am nothing. Love is patient, love is kind. It does not envy, it does not boast, it is not proud. For now we see only a reflection as in a mirror; then we shall see face to face. Now I know in part; then I shall know fully, even as I am fully known. And now these three remain: faith, hope and love. But the greatest of these is love.
     1 Corinthians 13:1-2, 4, 12-13 NIV</p>
-<img src="images/craiyon_01.png">
+<img src="/images/hport1.jpg">
   </div>
 
   <div id="p6" class="container">
@@ -137,7 +129,7 @@
   <div id="p3" class="container">
     <p>Praise the Lord. How good it is to sing praises to our God, how pleasant and fitting to praise him! Great is our Lord and mighty in power; his understanding has no limit. Sing to the Lord with grateful praise; make music to our God on the harp. His pleasure is not in the strength of the horse, nor his delight in the legs of the warrior; the Lord delights in those who fear him, who put their hope in his unfailing love. He has done this for no other nation; they do not know his laws. Praise the Lord.
     Psalms 147:1, 5, 7, 10-11, 20 NIV</p>
-<img src="images/craiyon_01.png">
+<img src="/images/hport1.jpg">
   </div>
 </div class="container">
 <div>
@@ -150,7 +142,7 @@
   <div id="p5" class="container">
     <p >Finally, all of you, be like-minded, be sympathetic, love one another, be compassionate and humble. But even if you should suffer for what is right, you are blessed. Do not fear their threats; do not be frightened.But in your hearts revere Christ as Lord. Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have. But do this with gentleness and respect.
     1 Peter 3:8, 14-15 NIV</p>
-<img src="images/craiyon_01.png">
+<img src="/images/hport1.jpg">
   </div>
 
   <div id="p7" class="container">
@@ -160,9 +152,60 @@
   </div>
 
   <div id="p2"class="container">
-<img src="images/craiyon_01.png">
+<img src="/images/hport1.jpg">
     <p >and test your creativity</p>
   </div>
+  <div class="wrapper">
+ 
+		<div class="item2 main">
+
+					   
+			<div>
+						<h1>A Verse for today </h1>
+				<p>
+					<?php
+						$filename2= "file.txt";
+						$fileContent2 = file_get_contents ($filename2);
+						print $fileContent2;
+					?>
+				</p>
+
+
+			<br />
+			<hr />
+					<form method="POST">
+						<label for="paste1">Paste your verse here:</label>
+						<br>
+						<textarea id="paste1" name="paste1" type="text" cols="40" rows="8" placeholder="Enter Verse"></textarea>
+						<br>
+						<input id="submit" type="submit" value="submit">
+					</form>
+			</div>
+		</div>
+		<?php
+
+			  
+				if( isset($_POST["paste1"]) ) {
+					file_put_contents("file.txt", $_POST["paste1"]);
+							
+							
+					$filename = "lista_toroq.txt";
+					$fileContent = file_get_contents ($filename);
+							
+					$filename1 = "vers.txt";
+					$fileContent1 = file_get_contents ($filename1);
+					
+					
+					$separator = "\n"." *********************** ". "\n";
+					$new_content = $_POST["paste1"].$separator.$fileContent;
+					$new_content1 = $_POST["paste1"].$separator;
+
+					file_put_contents($filename, $new_content);
+					file_put_contents($filename1, $new_content1, FILE_APPEND | LOCK_EX);
+					
+				}
+				?>
+		<hr />
   
  
 </div>
