@@ -68,7 +68,7 @@
 </div>
 
 </div>
-<div class="wrapper">
+<div class="wrapper item2">
     <div class="item1">
          <h1 id="myHeader">Verse of the day</h1>
 		<h2>A Verse for today </h2>
@@ -81,7 +81,7 @@
     </div>
 </div>
 
-<div class="item3">
+<div class="item2">
     <div>
         <p>
 
@@ -103,7 +103,7 @@
    }
 ?>
 
-<div class="item4">
+<div class="item2">
 </div>
 </div>
 
