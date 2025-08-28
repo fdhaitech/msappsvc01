@@ -5,6 +5,9 @@ body {
     font-family: serif;
     background-color: beige;
 }
+.navbak {
+	background-image: url("images/e2port1.jpg");
+}
 h1, h2, h3, h4, h5, h6 { font-family: sans-serif; 
 	background-image:url("/images/ncres.png");
     text-align: center;}
