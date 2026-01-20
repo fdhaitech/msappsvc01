@@ -56,7 +56,60 @@
 		</div>
                 
         <hr>
-		
+		<section>
+		<div style="text-align:center">
+		  <h2>AI Art Gallery</h2>
+		  <p>Click on the images below:</p>
+		</div>
+		<!-- The grid: four columns -->
+		<div class="row">
+		<div class="column">
+			<img src="images/a&dport.jpg" alt="Time to go to Work!" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/htdw.jpg" alt="High Tech Doorway to Earth 2" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/a&dport2.jpg" alt="Angels and Daemons enter the portal to Earth 2" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/entry1.jpg" alt="Portal from Ground 0" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/pooh.jpg" alt="Portal Out of Hell" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/e2dw.jpg" alt="Earth 2 doorway to Ground 0" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/e2toe1.jpg" alt="earth 2 doorway to earth 1" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/stairway.jpg" alt="Stairway to Heaven" onclick="myFunction(this);">
+		  </div>
+		  
+		</div>
+		</section>
+		<!-- The expanding image container -->
+		<div class="container">
+		  <!-- Close the image -->
+		  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+		  <!-- Expanded image -->
+		  <img id="expandedImg" style="width:100%">
+
+		  <!-- Image text -->
+		  <div id="imgtext"></div>
+		</div>
+		<script>
+			function myFunction(imgs) {
+			  var expandImg = document.getElementById("expandedImg");
+			  var imgText = document.getElementById("imgtext");
+			  expandImg.src = imgs.src;
+			  imgText.innerHTML = imgs.alt;
+			  expandImg.parentElement.style.display = "block";
+			}
+		</script>	
 		 <footer>
 		 <div class="flex-container">
 		<div class="myheader">
