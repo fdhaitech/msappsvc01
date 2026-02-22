@@ -100,15 +100,7 @@
 		  <!-- Image text -->
 		  <div id="imgtext"></div>
 		</div>
-		<script>
-			function myFunction(imgs) {
-			  var expandImg = document.getElementById("expandedImg");
-			  var imgText = document.getElementById("imgtext");
-			  expandImg.src = imgs.src;
-			  imgText.innerHTML = imgs.alt;
-			  expandImg.parentElement.style.display = "block";
-			}
-		</script>	
+		
 		 <footer>
 		 <div class="flex-container">
 		<div class="myheader">
@@ -121,19 +113,24 @@
 			<nav>
 			  <ul class="flex">
 				<li><a href="/index.html"><strong>Home</strong></a></li>	
-				<li><a href="indexa.php"><strong>Verses</strong></a></li>
-				<li><a href="veroday.html"><strong>Verse of the day</strong></a></li>
-				<li><a href="gp/">VOD</a></li>
-				<li><a href="/slshow01.html">Slideshow Gallery</a></li>
-				<li><a href="/slshow02.html">Slideshow Gallery</a></li>
+				
+				<li><a href="/slshow01.html">Slideshow1 Gallery</a></li>
+				<li><a href="/slshow02.html">Slideshow2 Gallery</a></li>
 			  </ul>    
 			</nav>
 	<br />
 	<hr />
 		</div>
-    <p>This page was originally created by Colleen van Lent for the <a
-        href="https://www.coursera.org/specializations/web-design"> Web Design for Everybody</a> Specialization.
-      Students are invited to make changes.</p>
+    <p>This page is totally made up!</p>
   </footer>
+  <script>
+			function myFunction(imgs) {
+			  var expandImg = document.getElementById("expandedImg");
+			  var imgText = document.getElementById("imgtext");
+			  expandImg.src = imgs.src;
+			  imgText.innerHTML = imgs.alt;
+			  expandImg.parentElement.style.display = "block";
+			}
+		</script>	
     </body>
 </html> 
