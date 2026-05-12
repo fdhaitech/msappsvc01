@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            AI Art Festival
+        </title>
+        <link href="css/index.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/clouds.css">
+     </head>
+    <body>
+     <header class="navbak">
+      <a href="#main" id="stm">Skip to Main Content</a>
+    <nav>
+      <h1>AI Art Festival</h1>
+      <ul class="flex">
+        <li><a href="index.html">Home</a></li>
+		<li><a href="void/index.php">Verse of the Day</a></li>
+       	
+        <li><a href="slshow02.html">Slideshow Gallery</a></li>
+     
+		<li><a href="tab01.html">Tabbed Gallery</a></li>
+		
+        </ul>
+	<div class="art">
+	
+	  </div>
+    </nav>
+        
+  </header>
+  <div id="background-wrap">
+      <div class="x1">
+          <div class="cloud"></div>
+      </div>
+      <div class="x2">
+          <div class="cloud"></div>
+      </div>
+      <div class="x3">
+          <div class="cloud"></div>
+      </div>
+      <div class="x4">
+          <div class="cloud"></div>
+      </div>
+      <div class="x5">
+          <div class="cloud"></div>
+      </div>
+  </div>
+        <h2>
+            Learning to develop a Web App!
+        </h2>
+		<div class="art">
+        <img id="e2port1" src="images/e2port1.jpg">
+		</div>
+                
+        <hr>
+		<section>
+		<div>
+		  <h2>AI Art Gallery</h2>
+		  <p>Click on the images below:</p>
+		</div>
+		<!-- The grid: four columns -->
+		<div class="row">
+		<div class="column">
+			<img src="images/a&dport.jpg" alt="Time to go to Work!" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/htdw.jpg" alt="High Tech Doorway to Earth 2" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/a&dport2.jpg" alt="Angels and Daemons enter the portal to Earth 2" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/entry1.jpg" alt="Portal from Ground 0" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/pooh.jpg" alt="Portal Out of Hell" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/e2dw.jpg" alt="Earth 2 doorway to Ground 0" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/e2toe1.jpg" alt="earth 2 doorway to earth 1" onclick="myFunction(this);">
+		  </div>
+		  <div class="column">
+			<img src="images/stairway.jpg" alt="Stairway to Heaven" onclick="myFunction(this);">
+		  </div>
+		  
+		</div>
+		</section>
+		<!-- The expanding image container -->
+		<div class="container">
+		  <!-- Close the image -->
+		  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+		  <!-- Expanded image -->
+		  <img id="expandedImg" style="width:100%">
+
+		  <!-- Image text -->
+		  <div id="imgtext"></div>
+		</div>
+		
+		 <footer>
+		 <div class="flex-container">
+		<div class="myheader">
+			<h1 id="myHeader">Verse of the day</h1>
+			<br />
+				<h3>
+					He said to them, “Go into all the world and preach the gospel to all creation. Whoever believes and is baptized will be saved, but whoever does not believe will be condemned.”
+					‭‭Mark‬ ‭16‬:‭15‬-‭16‬ ‭NIV‬‬
+				</h3>
+			<nav>
+			  <ul class="flex">
+				<li><a href="/index.html"><strong>Home</strong></a></li>	
+				
+				<li><a href="/slshow01.html">Slideshow1 Gallery</a></li>
+				<li><a href="/slshow02.html">Slideshow2 Gallery</a></li>
+			  </ul>    
+			</nav>
+	<br />
+	<hr />
+		</div>
+    <p>This page is totally made up!</p>
+  </footer>
+  <script>
+			function myFunction(imgs) {
+			  var expandImg = document.getElementById("expandedImg");
+			  var imgText = document.getElementById("imgtext");
+			  expandImg.src = imgs.src;
+			  imgText.innerHTML = imgs.alt;
+			  expandImg.parentElement.style.display = "block";
+			}
+		</script>	
+    </body>
+</html> 
