@@ -148,13 +148,13 @@ if (isset($_POST["paste1"])) {
 				
 				  </div>
 
-				  <div id="p5" class="item1">
+				  <div class="item1">
 					<p >Finally, all of you, be like-minded, be sympathetic, love one another, be compassionate and humble. But even if you should suffer for what is right, you are blessed. Do not fear their threats; do not be frightened.But in your hearts revere Christ as Lord. Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have. But do this with gentleness and respect.
 					1 Peter 3:8, 14-15 NIV</p>
 				
 				  </div>
 
-				  <div id="p7" class="item1">
+				  <div class="item1">
 					<p >Be strong and courageous. Do not be afraid or terrified because of them, for the Lord your God goes with you; he will never leave you nor forsake you. The Lord himself goes before you and will be with you; he will never leave you nor forsake you. Do not be afraid; do not be discouraged. Then the Lord appeared at the tent in a pillar of cloud, and the cloud stood over the entrance to the tent.
 					Deuteronomy 31:6, 8, 15 NIV</p>
 				
