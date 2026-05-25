@@ -38,15 +38,15 @@
 	<div id="background-wrap">
 
 		<div class="x1">
-			<div class="cloud">Be Strong</div>
+			<div class="cloud"> 	Be Strong</div>
 		</div>
 
 		<div class="x2">
-			<div class="cloud">Be courageous</div>
+			<div class="cloud">		Be courageous</div>
 		</div>
 
 		<div class="x3">
-			<div class="cloud"></div>
+			<div class="cloud">		have faith</div>
 		</div>
 
 		<div class="x4">
