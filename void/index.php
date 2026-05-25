@@ -38,11 +38,11 @@
 	<div id="background-wrap">
 
 		<div class="x1">
-			<div class="cloud"></div>
+			<div class="cloud">Be Strong</div>
 		</div>
 
 		<div class="x2">
-			<div class="cloud"></div>
+			<div class="cloud">Be courageous</div>
 		</div>
 
 		<div class="x3">
@@ -142,19 +142,19 @@ if (isset($_POST["paste1"])) {
 				  </div>
 				</div>
 				<div>
-				  <div id="p4" class="container">
+				  <div id="p4" class="item1">
 					<p >Therefore, when Christ came into the world, he said: Sacrifice and offering you did not desire, but a body you prepared for me; Then I said, Here I am - it is written about me in the scroll- I have come to do your will, my God. Let us hold unswervingly to the hope we profess, for he who promised is faithful. But we do not belong to those who shrink back and are destroyed, but to those who have faith and are saved.
 					Hebrews 10:5, 7, 23, 39 NIV</p>
 				
 				  </div>
 
-				  <div id="p5" class="container">
+				  <div id="p5" class="item1">
 					<p >Finally, all of you, be like-minded, be sympathetic, love one another, be compassionate and humble. But even if you should suffer for what is right, you are blessed. Do not fear their threats; do not be frightened.But in your hearts revere Christ as Lord. Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have. But do this with gentleness and respect.
 					1 Peter 3:8, 14-15 NIV</p>
 				
 				  </div>
 
-				  <div id="p7" class="container">
+				  <div id="p7" class="item1">
 					<p >Be strong and courageous. Do not be afraid or terrified because of them, for the Lord your God goes with you; he will never leave you nor forsake you. The Lord himself goes before you and will be with you; he will never leave you nor forsake you. Do not be afraid; do not be discouraged. Then the Lord appeared at the tent in a pillar of cloud, and the cloud stood over the entrance to the tent.
 					Deuteronomy 31:6, 8, 15 NIV</p>
 				
