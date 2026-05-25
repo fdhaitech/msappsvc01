@@ -81,10 +81,10 @@
 						<h1>A Verse for today </h1>
 				<p>
 					<?php
-						$filename2= "file.txt";
-						$fileContent2 = file_get_contents ($filename2);
-						print $fileContent2;
-					?>
+$filename2 = "file.txt";
+$fileContent2 = file_get_contents($filename2);
+print $fileContent2;
+?>
 				</p>
 
 
@@ -101,27 +101,27 @@
 		</div>
 		<?php
 
-			  
-				if( isset($_POST["paste1"]) ) {
-					file_put_contents("file.txt", $_POST["paste1"]);
-							
-							
-					$filename = "lista_toroq.txt";
-					$fileContent = file_get_contents ($filename);
-							
-					$filename1 = "vers.txt";
-					$fileContent1 = file_get_contents ($filename1);
-					
-					
-					$separator = "\n"." *********************** ". "\n";
-					$new_content = $_POST["paste1"].$separator.$fileContent;
-					$new_content1 = $_POST["paste1"].$separator;
 
-					file_put_contents($filename, $new_content);
-					file_put_contents($filename1, $new_content1, FILE_APPEND | LOCK_EX);
-					
-				}
-				?>
+if (isset($_POST["paste1"])) {
+	file_put_contents("file.txt", $_POST["paste1"]);
+
+
+	$filename = "lista_toroq.txt";
+	$fileContent = file_get_contents($filename);
+
+	$filename1 = "vers.txt";
+	$fileContent1 = file_get_contents($filename1);
+
+
+	$separator = "\n" . " *********************** " . "\n";
+	$new_content = $_POST["paste1"] . $separator . $fileContent;
+	$new_content1 = $_POST["paste1"] . $separator;
+
+	file_put_contents($filename, $new_content);
+	file_put_contents($filename1, $new_content1, FILE_APPEND | LOCK_EX);
+
+}
+?>
 		<hr />
 			<div class="item4 main">
 					<div class="item1">
@@ -140,7 +140,7 @@
 					<p>Praise the Lord. How good it is to sing praises to our God, how pleasant and fitting to praise him! Great is our Lord and mighty in power; his understanding has no limit. Sing to the Lord with grateful praise; make music to our God on the harp. His pleasure is not in the strength of the horse, nor his delight in the legs of the warrior; the Lord delights in those who fear him, who put their hope in his unfailing love. He has done this for no other nation; they do not know his laws. Praise the Lord.
 					Psalms 147:1, 5, 7, 10-11, 20 NIV</p>
 				  </div>
-				</div class="container">
+				</div>
 				<div>
 				  <div id="p4" class="container">
 					<p >Therefore, when Christ came into the world, he said: Sacrifice and offering you did not desire, but a body you prepared for me; Then I said, Here I am - it is written about me in the scroll- I have come to do your will, my God. Let us hold unswervingly to the hope we profess, for he who promised is faithful. But we do not belong to those who shrink back and are destroyed, but to those who have faith and are saved.
