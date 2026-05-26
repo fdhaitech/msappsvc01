@@ -131,12 +131,12 @@ if (isset($_POST["paste1"])) {
 					</div>
 
 				<br />
-				 <div id="p6" class="container">
+				 <div id="p6" class="item2">
 					<p>Finally, brethren, pray for us, that the word of the Lord may run swiftly and be glorified, just as it is with you, and that we may be delivered from unreasonable and wicked men; for not all have faith.But the Lord is faithful, who will establish you and guard you from the evil one. And we have confidence in the Lord concerning you, both that you do and will do the things we command you.Now may the Lord direct your hearts into the love of God and into the patience of Christ.
 					2 Thessalonians3:1-5 NKJV</p>
 				 </div>
 
-				  <div id="p3" class="container">
+				  <div id="p3" class="item2">
 					<p>Praise the Lord. How good it is to sing praises to our God, how pleasant and fitting to praise him! Great is our Lord and mighty in power; his understanding has no limit. Sing to the Lord with grateful praise; make music to our God on the harp. His pleasure is not in the strength of the horse, nor his delight in the legs of the warrior; the Lord delights in those who fear him, who put their hope in his unfailing love. He has done this for no other nation; they do not know his laws. Praise the Lord.
 					Psalms 147:1, 5, 7, 10-11, 20 NIV</p>
 				  </div>
