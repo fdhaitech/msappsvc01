@@ -39,8 +39,7 @@ li:nth-child(odd) {
 .item2 {
 	font-size: 2em;
     margin:auto;
-    padding:50px;
-	text-align: center;
+ 	text-align: center;
 	opacity:0.8;
 	z-index: -6;
 }
